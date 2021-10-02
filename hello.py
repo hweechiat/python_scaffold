@@ -1,6 +1,5 @@
-def add(x, y):
-    return x + y
+def add(x_1, x_2):
+    """ this function adds x_1 and x_2 """
+    return x_1 + x_2
 
-
-# print(f"This is the sum: 1, 2, {result}")
 print("Adding {} and {} gives {}".format(1, 2, add(1, 2)))
