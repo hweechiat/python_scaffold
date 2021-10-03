@@ -34,4 +34,6 @@ Check the python version and path using `which python`
 # Github actions / Continuous integration
 Running a series of 'actions' when you push to the master/main branch
 
-## Use your makefile
+## Use your makefile to run steps
+
+## <Add other uses of Github actions>
