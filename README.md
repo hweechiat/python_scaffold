@@ -12,16 +12,21 @@ This repo contains starter code for python projects
 - There are other ways to connect but this is preferred
 1. Set up keys in server
   `ssh -keygen -t rsa`
-2. Use `cat` to print out the public key
+2. Print out the public key
+  `cat`
 3. Register public key in github
 
 # Virtual Environment
-- Why use a virtual environment? Purpose is to create an isolated environment for Python projects. This means that each project can have its own dependencies, regardless of what dependencies every other project has.
+- Why use a virtual environment? 
+
+Purpose is to create an isolated environment for Python projects. This means that each project can have its own dependencies, regardless of what dependencies every other project has.
 
 ## Creating virtual environment 
-- good practice to give it the same name as your repo
-`python 3 -m venv ~/.python_scaffold`
+Good practice to give it the same name as your repo
+
+Create virtual envrionment with python 3 as base `python 3 -m venv ~/.python_scaffold`
 
 ## Activating virtual environment
-`source ~/.python_scaffold/bin/activate`
-check the python version and path using `which python`
+Activate virtual environment `source ~/.python_scaffold/bin/activate`
+
+Check the python version and path using `which python`
