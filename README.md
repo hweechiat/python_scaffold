@@ -4,8 +4,8 @@ This repo contains starter code for python projects
 # Files Contained
 1. makefile
 2. requirements.txt
-3. hello.py
-4. test_hello.py
+3. factorial.py
+4. test_factorial.py
 5. virtual env
 
 # Connecting to github via SSH
@@ -30,3 +30,8 @@ Create virtual envrionment with python 3 as base `python 3 -m venv ~/.python_sca
 Activate virtual environment `source ~/.python_scaffold/bin/activate`
 
 Check the python version and path using `which python`
+
+# Github actions / Continuous integration
+Running a series of 'actions' when you push to the master/main branch
+
+## Use your makefile
