@@ -21,6 +21,9 @@ This repo contains starter code for python projects
 
 Purpose is to create an isolated environment for Python projects. This means that each project can have its own dependencies, regardless of what dependencies every other project has.
 
+## Install venv
+`python3 -m pip install virtualenv`
+
 ## Creating virtual environment 
 Good practice to give it the same name as your repo
 
