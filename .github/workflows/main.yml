@@ -30,7 +30,7 @@ jobs:
       run: |
         make test
         
-    - Format code with Python black
+    - name: Format code with Python black
       run: |
         make format
     
