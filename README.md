@@ -1,11 +1,10 @@
-# Python project scaffold
-This repo contains starter code for python projects
+## This structure is my default python scaffold which is built on the assumption that Github actions will be used to incoporate continuous integration (CI)
 
 # Files Contained
 1. makefile
 2. requirements.txt
-3. factorial.py
-4. test_factorial.py
+3. coin_toss_game.py
+4. test_cases.py
 5. virtual env
 
 # Connecting to github via SSH
@@ -38,5 +37,3 @@ Check the python version and path using `which python`
 Running a series of 'actions' when you push to the master/main branch
 
 ## Use your makefile to run steps
-
-## <Add other uses of Github actions>
